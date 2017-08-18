@@ -1,2 +1,2 @@
-# bcrypt-core
-Implementation of BCrypt algorithm for .Net Core
+# BCrypt-Core
+Implementation of BCrypt algorithm for .NET Core
