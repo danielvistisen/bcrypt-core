@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Test", "0 - Test", "{B1B3C77C-75F4-4841-900C-253AC9339C90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Project", "1 - Project", "{332EDC4E-3351-40B1-95D2-5DFDFA54D571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCrypt", "BCrypt\BCrypt.csproj", "{734BFB17-B12A-4DFD-B0B6-F6646AAD6625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCrypt.Tests", "BCrypt.Tests\BCrypt.Tests.csproj", "{8036B4DA-EC80-47C5-A752-1819C3BE105D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{734BFB17-B12A-4DFD-B0B6-F6646AAD6625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734BFB17-B12A-4DFD-B0B6-F6646AAD6625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734BFB17-B12A-4DFD-B0B6-F6646AAD6625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734BFB17-B12A-4DFD-B0B6-F6646AAD6625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8036B4DA-EC80-47C5-A752-1819C3BE105D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8036B4DA-EC80-47C5-A752-1819C3BE105D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8036B4DA-EC80-47C5-A752-1819C3BE105D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8036B4DA-EC80-47C5-A752-1819C3BE105D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{734BFB17-B12A-4DFD-B0B6-F6646AAD6625} = {332EDC4E-3351-40B1-95D2-5DFDFA54D571}
+		{8036B4DA-EC80-47C5-A752-1819C3BE105D} = {B1B3C77C-75F4-4841-900C-253AC9339C90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCF8E1DE-5D12-4E25-918A-37B9F0E398B1}
+	EndGlobalSection
+EndGlobal
