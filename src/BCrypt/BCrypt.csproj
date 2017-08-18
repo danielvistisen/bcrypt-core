@@ -1,8 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
     <AssemblyName>BCrypt-Core</AssemblyName>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Caetano</Authors>
+    <Company />
+    <Description>Implementation of BCrypt algorithm for .Net Core</Description>
+    <PackageProjectUrl>https://github.com/haryoncaetano/bcrypt-core</PackageProjectUrl>
+    <PackageTags>BCrypt Blowfish Crypt Encrypt</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/haryoncaetano/bcrypt-core</RepositoryUrl>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Migrated to .NET Core 1.1</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
